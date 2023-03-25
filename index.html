@@ -1,78 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description" content="Fenix Heritage - Archeology Consultant">
-  <meta name="Author" conent="Toby Martin">
-  
-  <title>Fenix Heritage</title>
 
-  <!-- Import css Style Sheets -->
-  <link rel="stylesheet" type="text/css" href="mainstyle.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Fenix Heritage - Archeology Consultant">
+    <meta name="Author" conent="Toby Martin">
+
+    <title>Fenix Heritage</title>
+
+    <!-- Import css Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="/css/mainstyle.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!-- Import Js Scripts -->
+    <script defer src="js/revealOnScroll.js"></script>
+    <script defer src="js/navbar.js"></script>
+
 
 </head>
+
 <body>
-  <body class="example">
-    <!-- Navbar (sit on top) 
-    <div class="top navbar" id="navbar2">
-        <div class="bar opacity-min" id="navbar">
-            <a href=" #home" class="navbar-item-left button "><img src="placeholder.png" class="rounded"></a>
 
-            <a href="#contact" class="navbar-item-right nav-button opacity-min">CONTACT</a>
-            <a href="#media" class="navbar-item-right nav-button opacity-min">PORTFOLIO</a>
-            <a href="#about" class="navbar-item-right nav-button opacity-min">ABOUT</a>
+    <body class="example">
+        <!-- Navbar -->
+        <div class="top navbar" id="navbar2">
+            <div class="bar opacity-min" id="navbar">
+                <a href="#home" class="navbar-item-left button "><img src="/media/placeholder.png" class="rounded"></a>
 
+                <a href="#contact" class="navbar-item-right nav-button opacity-min">CONTACT</a>
+                <a href="#projects" class="navbar-item-right nav-button opacity-min">PROJECTS</a>
+                <a href="#about" class="navbar-item-right nav-button opacity-min">ABOUT</a>
+
+            </div>
         </div>
-    </div>
-    -->
 
-    <!-- First Parallax Image with Logo Text -->
-    <div class="bg-1 opacity-min" id="home">
-        <div class="display-middle">
-            <span class="animate-bottom center-heading w3-padding-large border-black w3-xlarge w3-wide"
-                style="font-family: monospace; border-radius: 1000px; white-space: nowrap;">Fenix Heritage</span>
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bg-1 opacity-min" id="home">
+            <div class="display-middle">
+                <img src="media/placeholder.png" class="bg-1"
+                    style="scale: 0.5; max-width: 200px; border-radius: 1000px; border: 2px solid black;">
+                <span class="animate-bottom center-heading w3-padding-large border-black w3-xlarge w3-wide"
+                    style="font-family: monospace; border-radius: 1000px; white-space: nowrap;">Fenix Heritage</span>
+            </div>
         </div>
-    </div>
 
-     <!-- Container (Contact Section) -->
-     <div class="w3-content w3-container w3-padding-64 hidden-scroll-bottom white" id="contact">
-        <h3 class="w3-center">Get In Touch</h3>
-
-        <div class="center">
-            <img src="placeholder.png" class="bg-1"
-                style="scale: 0.5; max-width: 200px; border-radius: 1000px; border: 2px solid black;">
+        <!-- Container (About Section) -->
+        <div class="w3-content w3-container w3-padding-64 white" id="about">
+            <div class="hidden-scroll">
+                <h3 class="center">ABOUT US</h3>
+                <p class="center"><em>Specialists in Heritage Statements
+                        for archaeological sites, historic landscapes and historic buildings.</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat
+                    cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="w3-row hidden-scroll">
+                <div class="w3-col m6 center">
+                    <p><b>Fenix Heritage</b></p><br>
+                    <img src="media/placeholder.png" class="image" width="350">
+                </div>
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-padding-large">
+                    <p><br><br>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum
+                        consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
         </div>
-        <div class="center" style="padding-top: 2.5%;">
-            <div class="w3-large w3-margin-bottom">
 
-                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> &#128231;:
-                anthony@fenixheritage.com<br>
+        <div class="container" style="padding-left:5%;padding-right: 5%;">
+            <div class="divider"></div>
+        </div>
+
+        <div class="w3-content w3-container w3-padding-64 white" id="projects">
+            <div>
+                <h3 class="w3-center">WHAT WE DO</h3>
 
             </div>
 
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3 clickable  hidden-scroll">
+                    <img src="media/placeholder.png" style="width:100%; aspect-ratio: 1/1;" class="portfolio-image"
+                        alt="Old Marto Head"></a>
+                </div>
 
+                <div class="w3-col m3 clickable  hidden-scroll">
+                    <img src="media/placeholder.png" style="width:100%; aspect-ratio: 1/1;" class="portfolio-image"
+                        alt="Marto mug render by @noon">
+                </div>
 
+                <div class="w3-col m3 clickable  hidden-scroll">
+                    <img src="media/placeholder.png" style="width:100%; aspect-ratio: 1/1;" class="portfolio-image"
+                        alt="offline video">
+                </div>
+
+                <div class="w3-col m3 clickable  hidden-scroll">
+                    <img src="media/placeholder.png" style="width:100%; aspect-ratio: 1/1;" onclick="onClick(this)"
+                        class="portfolio-image" alt="pixel mug">
+                </div>
+            </div>
         </div>
 
 
-
-    </div> 
-</body>
-<!-- Footer -->
-<footer class="center white" style="padding-bottom: 0.5%;">
+        <div class="container" style="padding-left:5%;padding-right: 5%;padding-top: 30px;">
+            <div class="divider"></div>
+        </div>
 
 
-    <div class="">
-        <a href="#home" class="footer-element" style="text-decoration: none;">Fenix Heritage © 2023</a>
-        <a href="https://www.termsfeed.com/live/080ad019-0f83-4479-b411-a88f5db06ea" class="footer-element"
-            style="text-decoration: none; padding-left: 50px">Privacy & Legal</a>
-        <a href="#about" class="footer-element" style="text-decoration: none; padding-left: 50px">About</a>
-        <a href="#media" class="footer-element" style="text-decoration: none; padding-left: 50px">Portfolio</a>
-        <a href="#contact" class="footer-element" style="text-decoration: none; padding-left: 50px">Contact</a>
-    </div>
+        <!-- Container (Contact Section) -->
+        <div class="w3-content w3-container w3-padding-64 hidden-scroll-bottom white" id="contact">
+            <h3 class="w3-center">Get In Touch</h3>
+            <div class="center">
+                <img src="media/placeholder.png" class="bg-1"
+                    style="scale: 0.5; max-width: 200px; border-radius: 1000px; border: 2px solid black;">
+            </div>
+            <div class="center" style="padding-top: 2.5%;">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> &#128231;:
+                    Anthony@FenixHeritage.com<br>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- Footer -->
+    <footer class="center white" style="padding-bottom: 0.5%;">
 
-</footer>
+
+        <div class="">
+            <a href="#home" class="footer-element" style="text-decoration: none;">Fenix Heritage © 2023</a>
+            <a href="https://www.termsfeed.com/live/080ad019-0f83-4479-b411-a88f5db06ea" class="footer-element"
+                style="text-decoration: none; padding-left: 50px">Privacy & Legal</a>
+            <a href="#about" class="footer-element" style="text-decoration: none; padding-left: 50px">About</a>
+            <a href="#media" class="footer-element" style="text-decoration: none; padding-left: 50px">Portfolio</a>
+            <a href="#contact" class="footer-element" style="text-decoration: none; padding-left: 50px">Contact</a>
+        </div>
+
+    </footer>
+
 </html>
