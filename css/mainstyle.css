@@ -4,7 +4,10 @@ html {
   color: 0;
   line-height: 1.8;
   font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
 }
+
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .example::-webkit-scrollbar {
@@ -109,6 +112,7 @@ img.rounded {
 .button:hover {
   font-size: 125%;
   scale: 1.2;
+  transform: scale(1.1);
 }
 
 .nav-button:hover {
@@ -124,7 +128,7 @@ img.rounded {
 .divider {
   width: 100%;
   background-color: black;
-  height: 2px;
+  height: 1px;
   border-radius: 5px;
 }
 
