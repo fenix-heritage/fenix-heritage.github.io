@@ -35,6 +35,16 @@ h3 {
 
 /* -------------------NAVBAR-------------------------- */
 
+.select-menu {
+  display: none;
+}
+
+
+@media (max-width: 560px) {
+  .navbar-float    { display: none; }
+  .select-menu { display: inline-block; }
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -76,7 +86,6 @@ h3 {
   outline: 0;
   text-decoration: none;
   font-family: "Lucida Console", "Courier New", monospace;
-  ;
 }
 
 .navbar-item-centre {

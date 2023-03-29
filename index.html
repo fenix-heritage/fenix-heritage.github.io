@@ -30,12 +30,19 @@
         <!-- Navbar -->
         <div class="top navbar" id="navbar2">
             <div class="display-middle">
-                <div class="bar opacity-min" id="navbar">
+                <div class="bar opacity-min navbar-float" id="navbar">
                     <a href="#contact" class="navbar-item-right nav-button opacity-min">CONTACT</a>
                     <a href="#projects" class="navbar-item-right nav-button opacity-min">PROJECTS</a>
                     <a href="#about" class="navbar-item-right nav-button opacity-min">ABOUT</a>
-
                 </div>
+
+                <select class="select-menu" onchange="window.open(this.value,'_self');"> 
+                    <option value="" selected="selected">Jump to...</option> 
+                    
+                    <option value="#about">About</option>
+                    <option value="#projects">Projects</option> 
+                    <option value="#contact">Contact</option> 
+                  </select> 
             </div>
         </div>
 
