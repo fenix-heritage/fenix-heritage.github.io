@@ -40,7 +40,7 @@ h3 {
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   .navbar-float    { display: none; }
   .select-menu { display: inline-block; }
 }
